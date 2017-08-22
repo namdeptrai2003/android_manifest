@@ -59,7 +59,31 @@
   <remove-project name="platform/hardware/intel/sensors" />
 
   <!-- General repos -->
+  <remove-project name="platform/build" />
   <remove-project name="kernel/tests" />
+
+  <!-- External repos -->
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/libnfnetlink" />
+  <remove-project name="platform/external/libnetfilter_conntrack" />
+
+  <!-- System repos -->
+  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/core" />
+
+  <!-- Framework repos -->
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+
+  <!-- Hardware repos -->
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- Package repos -->
    <remove-project name="platform/packages/apps/Browser2" />
@@ -73,6 +97,7 @@
    <remove-project name="platform/packages/apps/Protips" />
    <remove-project name="platform/packages/apps/QuickSearchBox" />
    <remove-project name="platform/packages/apps/RetailDemo" />
+   <remove-project name="platform/packages/apps/Settings" />
    <remove-project name="platform/packages/apps/SpareParts" />
    <remove-project name="platform/packages/apps/Test/connectivity" />
    <remove-project name="platform/packages/apps/UnifiedEmail" />
