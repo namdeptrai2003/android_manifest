@@ -32,6 +32,7 @@
   <project path="system/vold" name="android_system_vold" remote="aosp-kenzo" />
   <project path="system/core" name="android_system_core" remote="aosp-kenzo" />
   <project path="system/qcom" name="android_system_qcom" remote="aosp-kenzo" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="aosp-kenzo" />
 
   <!-- sepolicy -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="aosp-kenzo" />

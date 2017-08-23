@@ -69,6 +69,7 @@
   <!-- System repos -->
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/sepolicy" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/opt/telephony" />
