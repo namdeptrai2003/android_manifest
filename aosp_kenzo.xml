@@ -23,7 +23,6 @@
   <project path="manifest" name="android_manifest" remote="aosp-kenzo" />
 
   <!-- external -->
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="aosp-kenzo" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="aosp-kenzo" />
   <project path="external/fuse" name="android_external_fuse" remote="aosp-kenzo" />
   <project path="external/exfat" name="android_external_exfat" remote="aosp-kenzo" />
