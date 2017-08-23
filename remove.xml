@@ -64,7 +64,6 @@
 
   <!-- External repos -->
   <remove-project name="platform/external/libnfnetlink" />
-  <remove-project name="platform/external/libnetfilter_conntrack" />
 
   <!-- System repos -->
   <remove-project name="platform/system/vold" />
