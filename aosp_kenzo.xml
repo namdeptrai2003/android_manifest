@@ -20,7 +20,12 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/soong" name="android_build_soong" remote="aosp-kenzo">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="manifest" name="android_manifest" remote="aosp-kenzo" />
+  <project path="bionic" name="android_bionic" remote="aosp-kenzo" />
 
   <!-- external -->
   <project path="external/fuse" name="android_external_fuse" remote="aosp-kenzo" />
