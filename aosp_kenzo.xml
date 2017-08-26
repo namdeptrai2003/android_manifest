@@ -24,6 +24,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="build/kati" name="android_build_kati" remote="aosp-kenzo" />
   <project path="manifest" name="android_manifest" remote="aosp-kenzo" />
   <project path="bionic" name="android_bionic" remote="aosp-kenzo" />
 
