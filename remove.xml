@@ -68,6 +68,7 @@
 
   <!-- External repos -->
   <remove-project name="platform/external/libnfnetlink" />
+  <remove-project name="platform/external/libnetfilter_conntrack" />
 
   <!-- System repos -->
   <remove-project name="platform/system/vold" />
@@ -103,5 +104,6 @@
    <remove-project name="platform/packages/apps/Test/connectivity" />
    <remove-project name="platform/packages/apps/UnifiedEmail" />
    <remove-project name="platform/packages/inputmethods/OpenWnn" />
+   <remove-project name="platform/packages/inputmethods/LatinIME" />
 
 </manifest>
