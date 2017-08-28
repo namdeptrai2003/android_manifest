@@ -108,5 +108,6 @@
    <remove-project name="platform/packages/apps/PackageInstaller" />
    <remove-project name="platform/packages/inputmethods/OpenWnn" />
    <remove-project name="platform/packages/services/Telephony" />
+   <remove-project name="platform/packages/providers/MediaProvider" />
 
 </manifest>
