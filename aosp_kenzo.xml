@@ -72,7 +72,7 @@
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aosp-kenzo" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="aosp-kenzo" />
   <project path="vendor/qcom/opensource/fm" name="android_vendor_qcom_opensource_fm" remote="aosp-kenzo" />
-  <!-- <project path="vendor/aosp" name="android_vendor_aosp" remote="aosp-kenzo" /> -->
+  <project path="vendor/aosp" name="android_vendor_aosp" remote="aosp-kenzo" />
 
   <!-- kenzo -->
   <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" remote="aosp-kenzo" />
