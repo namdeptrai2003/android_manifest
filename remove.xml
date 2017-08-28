@@ -107,7 +107,6 @@
    <remove-project name="platform/packages/apps/UnifiedEmail" />
    <remove-project name="platform/packages/apps/PackageInstaller" />
    <remove-project name="platform/packages/inputmethods/OpenWnn" />
-   <remove-project name="platform/packages/inputmethods/LatinIME" />
    <remove-project name="platform/packages/services/Telephony" />
 
 </manifest>
