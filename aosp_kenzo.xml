@@ -78,6 +78,7 @@
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aosp-kenzo" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="aosp-kenzo" />
   <project path="vendor/qcom/opensource/fm" name="android_vendor_qcom_opensource_fm" remote="aosp-kenzo" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="aosp-kenzo" />
   <project path="vendor/aosp" name="android_vendor_aosp" remote="aosp-kenzo" />
   <project path="vendor/gapps" name="jhenrique09/vendor_gapps" clone-depth="1" revision="oreo" remote="gitlab" />
 
