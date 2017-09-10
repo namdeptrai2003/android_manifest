@@ -13,6 +13,18 @@
   <remote name="aosp-kenzo"
           revision="oreo"
           fetch="https://github.com/AOSP-O-Kenzo/" />
+  
+    <remote  name="UN"
+           fetch="https://github.com/namdeptrai2003" />
+  
+  <remote  name="BCM"
+           fetch="https://github.com/BroadcomOreo" />
+  
+  <remote  name="NN"
+           fetch="https://github.com/ishantvivek" />
+
+  <remote  name="LOS"
+           fetch="https://github.com/LineageOS" />
 
   <!-- general -->
   <project path="build/make" name="android_build" remote="aosp-kenzo" >
@@ -82,9 +94,11 @@
   <project path="vendor/aosp" name="android_vendor_aosp" remote="aosp-kenzo" />
   <project path="vendor/gapps" name="jhenrique09/vendor_gapps" clone-depth="1" revision="oreo" remote="gitlab" />
 
-  <!-- kenzo -->
-  <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" remote="aosp-kenzo" />
-  <project path="vendor/xiaomi/kenzo" name="android_vendor_xiaomi_kenzo" remote="aosp-kenzo" />
-  <project path="kernel/xiaomi/kenzo" name="android_kernel_xiaomi_kenzo" remote="aosp-kenzo" />
+  <!-- KYLEPROXX -->
+  <project path="device/samsung/kyleprods" name="android_device_samsung_kyleproxx-1" remote="UN" revision="aosp-8.0" />
+  <project path="kernel/samsung/kyleproxx" name="android_kernel_samsung_kyleproxx" remote="BCM" revision="o" />
+  <project path="vendor/samsung/kyleproxx" name="android_vendor_samsung_kyleproxx" remote="NN" revision="7.0" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="LOS" revision="lineage-15.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
 
 </manifest>
