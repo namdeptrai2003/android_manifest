@@ -14,7 +14,7 @@
           revision="oreo"
           fetch="https://github.com/AOSP-O-Kenzo/" />
   
-    <remote  name="UN"
+  <remote  name="UN"
            fetch="https://github.com/namdeptrai2003" />
   
   <remote  name="BCM"
